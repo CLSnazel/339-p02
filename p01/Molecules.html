@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<!-- Validated with no errors or warnings. No known problems in semantic validater achecker.ca-->
+	<head>
+		<meta charset="utf-8">
+		<title>Molecules</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/main.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<nav>
+			<h1 class="nav-head"> Flannels Ultd. </h1>
+			<div class="navigation">
+				<a class="button nav" href="wireframes.html">Wireframes</a>
+				<a class="button nav" href="Atoms.html">Style Guide</a>
+				<a class="button nav" href="Citations.html">Citations</a>
+			</div>
+			<!--- make other one for citations -->
+		</nav>
+	
+		<div class="purchase-head">
+			<a class="button" href="Atoms.html">Atoms</a>
+			<a class="button" href="#">Molecules</a>
+			<a class="button" href="Organisms.html">Organisms</a>
+			<a class="button" href="shopping-template.html">Template</a>
+		</div>
+	
+		<h2> Molecules</h2>
+	
+		<section>
+			<h3> Option Selection </h3>
+			
+			<div class="form-entry">
+				<div>
+					<img src="img/blueflannel.jpg" alt="blue flannel" class="drop-option">
+					<img src="img/flannel1.jpg" alt="grey flannel" class="drop-option">
+					<img src="img/flannel2.jpg" alt="multi-color flannel" class="drop-option">
+					<img src="img/greenflannel.jpg" alt="green flannel" class="drop-option">
+					<img src="img/redflannel.png" alt="red flannel" class="drop-option">
+					<img src="img/purpleflannel.jpg" alt="purple flannel" class="drop-option">
+				</div>
+				<form>
+					<select title="flannels">
+						<option value="blue">Blue</option>
+						<option value="grey">Grey</option>
+						<option value="multi">Multi-Color</option>
+						<option value="green">Green</option>
+						<option value="red">Red</option>
+						<option value="purple">Purple</option>
+					</select>
+				</form>
+			</div>
+			
+			<p>6 img + 1 select = 1 drop-down option selection </p>
+			<p> 
+				Would typically be used as part of a product listing that has custom options, can become
+				organism with repetition
+			</p>
+		
+		</section>
+	
+		<section>
+			<h3> Text Form </h3>
+			<div class="form-entry">
+			  <p>Measurement 1:</p>
+			  <input type="text" title="meas1">
+			</div>
+			<div class="submit-reset">
+				<a class="button reset" href="#">Reset</a>
+				<a class="button submit" href="#">Submit</a>
+			</div>
+			
+			<p> This will be most commonly used for entering a series of measurements, but can be used for 
+			other text submissions like billing information or email subscriptions</p>
+			
+			<div class="form-entry">
+				<p>Measurement 1:</p>
+				<form>
+					<select title="colors">
+						<option value="blue">Blue</option>
+						<option value="grey">Grey</option>
+						<option value="multi">Multi-Color</option>
+						<option value="green">Green</option>
+						<option value="red">Red</option>
+						<option value="purple">Purple</option>
+					</select>
+				</form>
+			</div>
+			<div class="submit-reset">
+				<a class="button reset" href="#">Reset</a>
+				<a class="button submit" href="#">Submit</a>
+			</div>
+		</section>
+	
+		<section>
+			<h3> Purchase Header </h3>
+			<div class="purchase-head">
+				<a class="button" href="#">Back</a>
+				<h2> Step 1: Measurements </h2>
+				<a class="button" href="#">Submit</a>
+			
+			</div>
+			
+			<p> button + h2 + button = purchase header.</p>
+			<p>Meant to help users navigate the cutomization process, to be used under the navigation</p>
+		
+		</section>
+	
+  </body>
+	
+</html>

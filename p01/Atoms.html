@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<!-- Validated with no errors, but one where H1 is used again as part of the "Headings" section 
+	No known problems in html through achecker.ca-->
+
+	<head>
+
+		<meta charset="utf-8">
+		<title>Atoms</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/main.css" rel="stylesheet">
+	
+
+	</head>
+
+	<body>
+		<nav>
+			<h1 class="nav-head"> Flannels Ultd. </h1>
+			<div class="navigation">
+				<a class="button nav" href="wireframes.html">Wireframes</a>
+				<a class="button nav" href="#">Style Guide</a>
+				<a class="button nav" href="Citations.html">Citations</a>
+			</div>
+			
+		
+		</nav>
+		<div class="purchase-head">
+			<a class="button" href="#">Atoms</a>
+			<a class="button" href="Molecules.html">Molecules</a>
+			<a class="button" href="Organisms.html">Organisms</a>
+			<a class="button" href="shopping-template.html">Template</a>
+		</div>
+		
+		<h2> Atoms</h2>
+		<p> Used the style-guide template provided on canvas as a structure to this guide</p>
+		 <!-- INTERACTIVE ELEMENTS SECTION // -->
+		<section id="interactive_elements">
+			<h2>Interactive Elements</h2>
+
+			<!-- Default Button styling section -->
+			<section>
+
+				<h2>Navigation Button</h2>
+
+				<h3>CSS selector:</h3>
+				<p>.button nav</p>
+
+				<h3>Sample code:</h3>
+				<code>&lt;a href="#" class="button nav"&gt;Default Button&lt;/a&gt;</code>
+
+				<h3>Rendered element:</h3>
+				<a class="button nav" href="#">Navigation Button</a>
+			</section>
+
+			<section>
+				<h2>In-text link</h2>
+				
+				<h3>CSS selector:</h3>
+				<p>a</p>
+
+				<h3>Sample code:</h3>
+				<code>&lt;a href="#"&gt;Click here!&lt;/a&gt;</code>
+
+				<h3>Rendered element:</h3>
+				<a href="#">Click here!</a>
+			</section>
+			<section>
+				<h2>Submit/Reset Buttons</h2>
+				<p>.button reset</p>
+
+				<h3>Sample code:</h3>
+				<code>&lt;a href="#" class="button reset"&gt;Reset&lt;/a&gt;</code>
+
+				<h3>Rendered element:</h3>
+				<a class="button reset" href="#">Reset</a>
+				
+				<p>.button submit</p>
+
+				<h3>Sample code:</h3>
+				<code>&lt;a href="#" class="button submit"&gt;Submit&lt;/a&gt;</code>
+
+				<h3>Rendered element:</h3>
+				<a class="button submit" href="#">Submit</a>
+			</section>
+
+			<section>
+				<h2>Text Input Field</h2>
+		
+				<h3>CSS selector:</h3>
+				<p>.button submit</p>
+				<!-- borrowed from https://www.w3schools.com/html/html_form_input_types.asp -->
+				<h3>Sample code:</h3>
+				<code>&lt;form&gt;
+				  &lt;p&gt;Entry 1:&lt;/p&gt;
+				  &lt;input type="text" name="entry 1"&gt;
+				  &lt;p&gt;Entry 2:&lt;/p&gt;
+				  &lt;input type="text" name="entry 2"&gt;
+				&lt;/form &gt;
+				</code>
+		
+				<h3>Rendered element:</h3>
+					<form>
+					<p>Entry 1:</p>
+					<input type="text" title="entry1">
+					<p>Entry 2:</p>
+					<input type="text" title="entry2">
+				</form>
+		
+		
+			</section>
+<!-- learned from https://www.w3schools.com/html/html_form_elements.asp -->
+			<section>
+				<h2> Dropdown input </h2>
+				
+				<h3>CSS selector:</h3>
+				<p> select </p>
+				
+				<h3>Sample code:</h3>
+				
+				<code>
+				&lt;form&gt;
+				  &lt;select&gt;
+					&lt;option value="blue"&gt;Blue&lt;/option&gt;
+					&lt;option value="red"&gt;Red&lt;/option&gt;
+					&lt;option value="green"&gt;Green&lt;/option&gt;
+				  &lt;/select&gt;
+				&lt;/form&gt;
+				</code>
+				
+				<h3>Rendered element:</h3>
+				<form>
+				  <select title="colors">
+					<option value="blue">Blue</option>
+					<option value="red">Red</option>
+					<option value="green">Green</option>
+				  </select>
+				</form>
+			</section>
+
+		</section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+	
+	<!-- TEXT ELEMENTS SECTION // -->
+		<section id="text_elements">
+			<h2>Text Elements</h2>
+			<section>
+				<h2>Headings</h2>
+				<h3>CSS selector:</h3>
+				<p>h1, h2, h3, etc.</p>
+
+				<h3>Sample code:</h3>
+				<code>&lt;h1&gt;Heading 1&lt;/h1&gt;</code>
+
+				<h3>Rendered element:</h3>
+				<h1>Heading 1</h1>
+				<h2>Heading 2</h2>
+				<h3>Heading 3</h3>
+				<h4>Heading 4</h4>
+			</section>
+
+			<section>
+				<h2>Paragraphs</h2>
+				<h3>CSS selector:</h3>
+				<p>section .half-col</p>
+
+				<h3>Sample code:</h3>
+				<code>&lt;p&gt;Here's some text!&lt;/p&gt;</code>
+				
+				<h3> Rendered Element </h3>
+				<section>
+					<h4> Lorem Ipsum</h4>
+				
+					<div class="half-col">
+						<p> 
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris iaculis tortor bibendum, suscipit nisl et, tempor magna. Aenean sem enim, elementum ut massa ac, dapibus venenatis mi. Nunc eget enim eu urna fringilla vehicula id ac ipsum. Mauris suscipit, massa ut convallis gravida, elit nulla mollis sapien, vel porttitor lacus neque quis arcu. Nunc efficitur enim eget arcu gravida, maximus ornare magna mattis. Praesent fringilla urna magna, eu dictum orci ultrices ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer eu maximus lacus.
+						</p>
+					
+						<p>
+							Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed dictum diam ligula, quis bibendum felis vestibulum in. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce vel pellentesque mauris. Pellentesque id porta felis. Sed finibus neque sit amet libero lobortis, pulvinar malesuada mi vulputate. Nunc pellentesque ligula quis ligula accumsan varius. Quisque vitae condimentum erat, eu venenatis eros. Cras leo ipsum, vulputate et fermentum malesuada, pretium nec nunc. Suspendisse at ornare nisi. Integer id nisi ultricies, eleifend mi a, finibus leo. Phasellus leo tortor, sollicitudin eget erat id, tristique mattis risus. Nunc purus lectus, mollis suscipit eros vel, laoreet sodales massa. Praesent metus purus, tristique malesuada egestas a, tincidunt ultricies diam. In sit amet erat eu dolor tincidunt luctus. Integer et elit viverra, semper dolor et, ultrices sem.
+						</p>
+					</div>
+				
+				</section>
+		
+			</section>
+
+			<section>
+				<h2>Bulleted Lists</h2>
+				
+				<ul>
+					<li>Thing 1 </li>
+					<li>Thing 2 </li>
+					<li>Thing 3</li>
+					<li>Thing 4</li>
+				</ul>
+			</section>
+
+			<section>
+				<h2>Numbered Lists</h2>
+				
+				<ol>
+					<li>Thing 1</li>
+					<li>Thing 2</li>
+					<li>Thing 3</li>
+					<li>Thing 4</li>
+				</ol>
+			</section>
+
+		</section>
+    <!-- // TEXT ELEMENTS SECTION -->
+	
+	
+	</body>
+
+</html>

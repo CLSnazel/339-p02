@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<!-- validated with no errors, but with 2 warnings for repeated h1, which is excusable as I am showing how the nav is used as a molecule. Passed achecker.ca with no known problems -->
+
+	<head>
+		<meta charset="utf-8">
+		<title>Organisms</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/main.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<nav>
+			<h1 class="nav-head"> Flannels Ultd. </h1>
+			<div class="navigation">
+				<a class="button nav" href="wireframes.html">Wireframes</a>
+				<a class="button nav" href="#">Style Guide</a>
+				<a class="button nav" href="Citations.html">Citations</a>
+			</div>	
+		</nav>
+		<div class="purchase-head">
+			<a class="button" href="Atoms.html">Atoms</a>
+			<a class="button" href="Molecules.html">Molecules</a>
+			<a class="button" href="#">Organisms</a>
+			<a class="button" href="shopping-template.html">Template</a>
+		</div>
+		<h2> Organisms </h2>
+		
+		<section>
+			<h3>Navigation Organism</h3>
+			<nav>
+				<h1 class="nav-head"> Flannels Ultd. </h1>
+				<div class="navigation">
+					<a class="button nav" href="#">Wireframes</a>
+					<a class="button nav" href="Template.html">Style Guide</a>
+					<a class="button nav" href="Citations.html">Citations</a>
+				</div>
+			</nav>
+		
+			<p> This organism is made entirely of atoms, however can be be combined with the purchase navigation molecule during each step of the purchase process like so:</p>
+		
+			<nav>
+				<h1 class="nav-head"> Flannels Ultd. </h1>
+				<div class="navigation">
+					<a class="button nav" href="#">Wireframes</a>
+					<a class="button nav" href="Template.html">Style Guide</a>
+					<a class="button nav" href="Citations.html">Citations</a>
+				</div>
+			</nav>
+			<div class="purchase-head">
+				<a class="button" href="#">Back</a>
+				<h2> Step 2: Customization </h2>
+				<a class="button" href="#">Submit</a>
+			
+			</div>
+	
+		</section>
+	
+		<section>
+			<h3>Flannel Customization Listing </h3>
+			<p> This is the full form for a customized flannel [w/ some placeholder images]</p>
+	
+			<div class="form-entry">
+				<h3> Pockets </h3>
+				<div>
+					<img src="img/pockets-standard.jpg" alt="standard pocket" class="drop-option">
+					<img src="img/pockets-heart.jpg" alt="heart pocket" class="drop-option">
+					<img src="img/pockets-square.jpg" alt="square pocket" class="drop-option">
+				</div>
+				<form>
+					<select title="pockets">
+						<option value="Standard">Standard</option>
+						<option value="Heart">Heart</option>
+						<option value="Square">Square</option>
+					</select>
+				</form>
+			</div>
+			<div class="form-entry">
+				<h3>Sleeves</h3>
+				<div>
+					<img src="img/sleeve-full.jpg" alt="full sleeve" class="drop-option">
+					<img src="img/sleeve-3-4.jpg" alt="3/4 sleeve" class="drop-option">
+					<img src="img/sleeve-1-2.jpg" alt="1/2 sleeve" class="drop-option">
+				</div>
+				<form>
+					<select title="sleeves">
+						<option value="Full">Full</option>
+						<option value=".75">Three-Quarters</option>
+						<option value=".5">Half</option>
+					</select>
+				</form>
+			</div>
+		
+	
+			<div class="form-entry">
+				<h3>Fabric</h3>
+				<div>
+					<img src="img/blueflannel.jpg" alt="blue flannel" class="drop-option">
+					<img src="img/flannel1.jpg" alt="grey flannel" class="drop-option">
+					<img src="img/flannel2.jpg" alt="multi-color flannel" class="drop-option">
+					<img src="img/greenflannel.jpg" alt="green flannel" class="drop-option">
+					<img src="img/redflannel.png" alt="red flannel" class="drop-option">
+					<img src="img/purpleflannel.jpg" alt="purple flannel" class="drop-option">
+				</div>
+				<form>
+					<select title="fabric">
+						<option value="blue">Blue</option>
+						<option value="grey">Grey</option>
+						<option value="multi">Multi-Color</option>
+						<option value="green">Green</option>
+						<option value="red">Red</option>
+						<option value="purple">Purple</option>
+					</select>
+				</form>
+			</div>
+		
+			<div class="form-entry">
+				<h3>Shoulders</h3>
+				<div>
+					<img src="img/plain.jpg" alt="plain" class="drop-option">
+					<img src="img/studs.jpg" alt="studs" class="drop-option">
+					<img src="img/sequins.jpg" alt="sequins" class="drop-option">
+				</div>
+				<form>
+					<select title="shoulders">
+						<option value="Plain">Plain</option>
+						<option value="Studs">Studs</option>
+						<option value="Sequins">Sequins</option>
+					</select>
+				</form>
+			</div>
+		
+			<div class="submit-reset">
+				  <a class="button reset" href="#">Reset</a>
+				  <a class="button submit" href="#">Submit</a>
+			</div>
+	
+		</section>
+	
+	</body>
+
+
+</html>
