@@ -8,10 +8,8 @@ body{
   margin:0;
 }
 
-section:not([id]) {
-  margin: 1em 0;
-  padding: 0.5em 0;
-  border-top: 1px solid #333;
+section{
+	margin:2em;
 }
 
 section h3 {
