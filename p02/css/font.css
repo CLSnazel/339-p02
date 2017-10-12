@@ -1,0 +1,43 @@
+@font-face{
+	font-family: "Venetian";
+	font-weight:normal;
+	font-style: normal;
+	
+	src: url("../fonts/Venetian.otf") format("opentype");
+}
+@font-face{
+	font-family: "Bitter";
+	font-weight:normal;
+	font-style: normal;
+	
+	src: url("../fonts/Bitter-Regular.otf") format("opentype");
+}
+@font-face{
+	font-family: "Bitter";
+	
+	font-style:italic;
+	
+	src: url("../fonts/Bitter-Italic.otf") format("opentype");
+}
+@font-face{
+	font-family: "Bitter";
+	font-weight:bold;
+	
+	
+	src: url("../fonts/Bitter-Bold.otf") format("opentype");
+}
+@font-face{
+	font-family: "Bitter";
+	
+	font-style:oblique;
+	
+	src: url("../fonts/Bitter-BoldItalic.otf") format("opentype");
+}
+body {
+  font-family: Bitter;
+  }
+  
+ h1{
+	font-family:Venetian;
+	font-size:3em;
+}
