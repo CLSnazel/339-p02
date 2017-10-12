@@ -127,30 +127,47 @@ select{
 	margin:0;
 }
 
-p{
-	clear:none;
+.alone{
+	max-width:100%;
 }
+
 .half-col{
 	display:flex;
-	flex-wrap:wrap;
-
-	
+	flex-wrap:wrap;	
 }
 
-.half-col p{
+.half-col *{
 	max-width:100%;
 	margin:1em;
 	flex-shrink:1;
 	flex-grow:1;
 	flex-wrap:wrap;
 }
+.half-col * *{
+	max-width:100%
+}
+.half-col div img{
+	max-width:100%;
+	margin:0;
+}
 
-
+.half-col ul{
+	margin:0;
+	max-width:100%;
+}
+.half-col ul li{
+	margin-right:0;
+	max-width:100%;
+}
 
 
 @media (min-width:58.125em){
-	section .half-col p{
+	section .half-col *{
 		max-width:46%;
+		height:auto;
+	}
+	.alone{
+		max-width:75%;
 	}
 }
 
@@ -159,7 +176,9 @@ p{
 	height:auto;
 }
 
-
+img{
+	max-width:100%;
+}
 
 /* 
   COMBINED ELEMENTS -------------------
