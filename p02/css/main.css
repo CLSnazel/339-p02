@@ -139,7 +139,7 @@ select{
 
 .half-col *{
 	max-width:100%;
-	margin:1em;
+	
 	flex-shrink:1;
 	flex-grow:1;
 	flex-wrap:wrap;
@@ -166,12 +166,18 @@ select{
 	section .half-col *{
 		max-width:46%;
 		height:auto;
+		margin:1em;
 	}
 	.half-col div *{
 		max-width:100%
 	}
 	.alone{
 		max-width:75%;
+	}
+}
+@media (min-width:34em){
+	section .half-col *{
+		margin:1em;
 	}
 }
 
@@ -194,6 +200,7 @@ img{
 	
 }
 
+
 .drop-option{
 	flex-grow:1;
 	flex-shrink:1;
@@ -205,6 +212,11 @@ img{
 .form-entry form{
 	width:100%;
 	margin:0;
+}
+@media (min-width:34em){
+	.form-entry form{
+		margin:1em;
+	}
 }
 
 .form-entry form select{
