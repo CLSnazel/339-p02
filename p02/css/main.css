@@ -102,6 +102,7 @@ a:hover, a:focus{
 input[type=text]{
 	border:none;
 	border-bottom:black 2px solid;
+	max-width:100%;
 }
 input[type=text]:hover, input[type=text]:focus{
 	border:none;
@@ -110,8 +111,8 @@ input[type=text]:hover, input[type=text]:focus{
 }
 
 select{
-	display:flex;
-	flex-basis:4em;
+	/*display:flex;
+	flex-basis:4em;*/
 	border-radius:.3em;
 }
 
@@ -143,7 +144,7 @@ select{
 	flex-grow:1;
 	flex-wrap:wrap;
 }
-.half-col * *{
+.half-col div *{
 	max-width:100%
 }
 .half-col div img{
@@ -165,6 +166,9 @@ select{
 	section .half-col *{
 		max-width:46%;
 		height:auto;
+	}
+	.half-col div *{
+		max-width:100%
 	}
 	.alone{
 		max-width:75%;
@@ -200,10 +204,12 @@ img{
 
 .form-entry form{
 	width:100%;
+	margin:0;
 }
 
 .form-entry form select{
 	width:100%;
+	padding:1.5em;
 }
 
 @media (min-width:46.25em){
