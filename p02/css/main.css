@@ -169,6 +169,10 @@ select{
 	max-width:100%;
 }
 
+div.quart-col{
+	margin-bottom:4em;
+}
+
 .quart-col{
 	display:flex;
 	flex-wrap:wrap;
@@ -179,7 +183,7 @@ select{
 	flex-grow:1;
 	flex-wrap:wrap;
 	margin:0;
-	margin-bottom:4em;
+	margin-bottom:3em;
 }
 
 .location div{
