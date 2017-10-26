@@ -9,7 +9,8 @@ body{
 }
 
 section{
-	margin:1em;
+	margin:.5em;
+	margin-bottom:4em;
 }
 
 section h3 {
@@ -24,7 +25,7 @@ section code {
   background-color: #EEE;
   padding: 0.5em 0.75em;
 }
-@media (min-width:14em){
+@media (min-width:25em){
 	section{
 		margin:2em;
 	}
@@ -107,6 +108,7 @@ input[type=text]{
 	border:none;
 	border-bottom:black 2px solid;
 	max-width:100%;
+	font-size:1.25rem;
 }
 input[type=text]:hover, input[type=text]:focus{
 	border:none;
@@ -118,6 +120,8 @@ select{
 	/*display:flex;
 	flex-basis:4em;*/
 	border-radius:.3em;
+	font-size:1rem;
+	padding:1em;
 }
 
 
@@ -175,13 +179,23 @@ select{
 	flex-grow:1;
 	flex-wrap:wrap;
 	margin:0;
+	margin-bottom:4em;
+}
+
+.location div{
+	max-width:47%;
+	margin-right:.5em;
+}
+
+div h4:nth-of-type(1){
+	margin-top:0;
 }
 
 @media (min-width:58.125em){
 	section .half-col *{
 		max-width:46%;
 		height:auto;
-		margin:1em;
+		margin-right:1em;
 	}
 	.half-col div *{
 		max-width:100%
@@ -193,33 +207,37 @@ select{
 }
 @media (min-width:34em){
 	section .half-col *{
-		margin:1em;
+		margin-right:1em;
 	}
 	.quart-col div{
 		max-width:43%;
 		height:auto;
-		margin:1em;
+		margin-right:1em;
 	}
 }
 @media (min-width:45em){
 	.quart-col div{
 		max-width:45%;
 		height:auto;
-		margin:1em;
+		margin-right:1em;
 	}
 }
 @media (min-width:51em){
 	.quart-col div{
 		max-width:20%;
 		height:auto;
-		margin:1em;
+		margin-right:1em;
 	}
 }
 @media (min-width:71em){
 	.quart-col div{
 		max-width:22%;
 		height:auto;
-		margin:1em;
+		margin-right:2em;
+	}
+	.quart-col{
+		margin-top:1em;
+		margin-bottom:2em;
 	}
 }
 
@@ -232,6 +250,9 @@ img{
 	max-width:100%;
 }
 
+p{
+	font-size:1rem;
+}
 /* 
   COMBINED ELEMENTS -------------------
 */
@@ -239,7 +260,7 @@ img{
 .form-entry{
 	display:flex;
 	flex-wrap:wrap;
-	
+	margin-bottom:4em;
 }
 
 
@@ -254,6 +275,7 @@ img{
 .form-entry form{
 	width:100%;
 	margin:0;
+	
 }
 @media (min-width:34em){
 	.form-entry form{
@@ -263,7 +285,6 @@ img{
 
 .form-entry form select{
 	width:100%;
-	padding:1.5em;
 }
 
 @media (min-width:46.25em){
@@ -279,7 +300,6 @@ img{
 
 .form-entry input[type=text]{
 	width:100%;
-	margin-bottom:2em;
 }
 .submit-reset{
 	display:flex;
@@ -288,6 +308,23 @@ img{
 .submit-reset a{
 	flex-grow:1;
 	flex-shrink:1;
+	max-width:100%
+}
+.submit-reset a:nth-of-type(1){
+	order:2;
+}
+
+@media(min-width:14.5em){
+	.submit-reset a:nth-of-type(1){
+			order:0;
+			max-width:20%
+		}
+}
+@media (min-width:49em){
+	.submit-reset a:nth-of-type(1){
+		order:0;
+		max-width:100%
+	}
 }
 
 .purchase-head{
@@ -313,9 +350,9 @@ img{
 .img-listing{
 	display:flex;
 	flex-wrap:wrap;
-	margin-top:2em;
-	margin-left:2em;
-	margin-right:2em;
+	margin-top:.5em;
+	margin-left:.5em;
+	margin-right:.5em;
 }
 
 .img-listing figure, .img-listing section{
@@ -340,6 +377,13 @@ figure img{
 	}
 	figure img{
 		max-width:80%;
+	}
+}
+@media(min-width:25em){
+	.img-listing{
+		margin-top:2em;
+		margin-left:2em;
+		margin-right:2em;
 	}
 }
 
