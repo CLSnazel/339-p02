@@ -3,8 +3,7 @@
 
 <html lang="en">
 
-<!-- one validation warning where there is no heading for the img-listing class. There's probably a way to fix this, but I can't wrap my head around it and not ruin the styling in time. 
-Semantically valid with no known problems at achecker.ca-->
+<!-- Completely valid, no warnings or errors, no known problems at achecker.ca-->
 	<head>
 
 		<meta charset="utf-8">
@@ -27,29 +26,26 @@ Semantically valid with no known problems at achecker.ca-->
 			</div>
 		</nav>
 		<div class="purchase-head">
-			<a class="button" href="shop.html">Back</a>
+			<a class="button" href="shop.html">Back to Shop</a>
 			<h2> Step 1: Customization </h2>
-			<a class="button" href="measurements.html">Next</a>
+			<a class="button" href="measurements.html">Step 2: Measurements</a>
 			
 		</div>
 		
 		<section>
 			<h2>Custom Flannel</h2>
-			<div class="img-listing">
-				<figure>
-					<img src="img/fashion3.jpg" alt="ways to wear your new flannel">
-					<figcaption> Rock your look with your own unique, customized flannel</figcaption>
-				
-				</figure>
 			
-				<section>
-					<h2> Options</h2>
-					<div class="form-entry">
-						<h3> Pockets </h3>
+			<h3>Pockets</h3>
+			<p>Pick the shape of pocket you prefer most.</p>
+			<div class="half-col">
+				<div>
+					<img src="img/pocket.jpg" alt="A pocket on a flannel shirt">
+				</div>
+				<div class="form-entry">
 						<div>
-							<img src="img/pockets-standard.jpg" alt="standard pocket" class="drop-option">
-							<img src="img/pockets-heart.jpg" alt="heart pocket" class="drop-option">
-							<img src="img/pockets-square.jpg" alt="square pocket" class="drop-option">
+							<img src="img/pockets-standard.jpg" alt="standard pocket, like a square with the bottom corners cut off" class="drop-option">
+							<img src="img/pockets-heart.jpg" alt="heart pocket, a pocket shaped just like a heart" class="drop-option">
+							<img src="img/pockets-square.jpg" alt="square pocket, a pocket in a square shape" class="drop-option">
 						</div>
 						<form>
 							<select title="pockets">
@@ -58,13 +54,20 @@ Semantically valid with no known problems at achecker.ca-->
 								<option value="Square">Square</option>
 							</select>
 						</form>
-					</div>
-					<div class="form-entry">
-						<h3>Sleeve Size</h3>
+				</div>
+			</div>
+			
+			<h3>Sleeve Size</h3>
+			<p> Pick how long you'd like your sleeves to be, ranging from full to half length.</p>
+			<div class="half-col">
+				<div>
+					<img src="img/sleeves.jpg" alt="A sleeve on a flannel shirt">
+				</div>
+				<div class="form-entry">
 						<div>
-							<img src="img/sleeve-full.jpg" alt="full sleeve" class="drop-option">
-							<img src="img/sleeve-3-4.jpg" alt="3/4 sleeve" class="drop-option">
-							<img src="img/sleeve-1-2.jpg" alt="1/2 sleeve" class="drop-option">
+							<img src="img/sleeve-full.jpg" alt="full sleeve, that goes from the shoulder down to the wrist" class="drop-option">
+							<img src="img/sleeve-3-4.jpg" alt="3/4 sleeve, goes from the shoulder to the middle of the forearm" class="drop-option">
+							<img src="img/sleeve-1-2.jpg" alt="1/2 sleeve, goes from the shoulder to the elbow" class="drop-option">
 						</div>
 						<form>
 							<select title="sleeves">
@@ -73,11 +76,16 @@ Semantically valid with no known problems at achecker.ca-->
 								<option value=".5">Half</option>
 							</select>
 						</form>
-					</div>
-		
-		
-					<div class="form-entry">
-						<h3>Fabric</h3>
+				</div>
+			</div>
+			
+			<h3>Fabric</h3>
+			<p> Choose the fabric you'd like your flannel to be made out of.</p>
+			<div class="half-col">
+				<div>
+					<img src="img/fabric.jpg" alt="A sleeve on a flannel shirt">
+				</div>
+				<div class="form-entry">
 						<div>
 							<img src="img/blueflannel.jpg" alt="blue flannel" class="drop-option">
 							<img src="img/flannel1.jpg" alt="grey flannel" class="drop-option">
@@ -88,17 +96,24 @@ Semantically valid with no known problems at achecker.ca-->
 						</div>
 						<form>
 							<select title="fabric">
-								<option value="blue">Blue</option>
-								<option value="grey">Grey</option>
-								<option value="multi">Multi-Color</option>
-								<option value="green">Green</option>
-								<option value="red">Red</option>
-								<option value="purple">Purple</option>
-							</select>
-						</form>
-					</div>
+							<option value="blue">Blue</option>
+							<option value="grey">Grey</option>
+							<option value="multi">Multi-Color</option>
+							<option value="green">Green</option>
+							<option value="red">Red</option>
+							<option value="purple">Purple</option>
+						</select>
+					</form>
+				</div>
+			</div>
 			
-					<div class="form-entry">
+			<h3>Shoulder Decoration</h3>
+			<p> Want some flare on your shoulder? Add some decoration like studs or sequins.</p>
+			<div class="half-col">
+				<div>
+					<img src="img/shoulder.jpg" alt="A sleeve on a flannel shirt">
+				</div>
+				<div class="form-entry">
 						<h3>Shoulders</h3>
 						<div>
 							<img src="img/plain.jpg" alt="plain" class="drop-option">
@@ -113,14 +128,13 @@ Semantically valid with no known problems at achecker.ca-->
 							</select>
 						</form>
 					</div>
+			</div>
 			
-					<div class="submit-reset">
-						  <a class="button reset" href="#">Reset</a>
-						  <a class="button submit" href="measurements.html">Next Step</a>
-					</div>
+			<div class="submit-reset">
+				<a class="button reset" href="#">Reset</a>
+				<a class="button submit" href="measurements.html">Enter Measurements</a>
+			</div>
 			
-			</section>
-		</div>
 		</section>
 		
 	</body>

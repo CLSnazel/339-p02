@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,51 +19,93 @@
 				<a class="button nav" href="cart.html">Cart</a>
 			</div>
 		</nav>
+		<div class="purchase-head">
+			<a class="button" href="shop.html">Back to Flannel</a>
+			<h2> Step 2: Measurements </h2>
+			<a class="button" href="measurements.html">Add to Cart</a>
+			
+		</div>
 		
 		<section>
-		<h2> Measurements</h2>
-		<p> Please enter each of your measurements in the form below. All measurements should be in cenimeters (cm)</p>
-			<div class="alone">
-				<div class="form-entry">
-					  <p>Shoulder Width:</p>
-					  <input type="text" title="meas1">
+			<h2> Measurements</h2>
+			<p> Please enter each of your measurements in the form below. All measurements should be in cenimeters (cm)</p>
+	
+			<div class="half-col">
+				<div>
+					<img src="img/torso-measure.jpg" alt="A diagram of where to measure the neck, chest, waist and hip">
 				</div>
-				<div class="form-entry">
-					  <p>Chest:</p>
-					  <input type="text" title="meas1">
-				</div>
-				<div class="form-entry">
-					  <p>Waist:</p>
-					  <input type="text" title="meas1">
-				</div>
-				<div class="form-entry">
-					  <p>Hip:</p>
-					  <input type="text" title="meas1">
-				</div>
-				<div class="form-entry">
-					  <p>Torso Length:</p>
-					  <input type="text" title="meas1">
-				</div>
-				<div class="form-entry">
-					  <p>Arm Size:</p>
-					  <input type="text" title="meas1">
-				</div>
-				<div class="form-entry">
-					  <p>Arm Length:</p>
-					  <input type="text" title="meas1">
-				</div>
-				<div class="form-entry">
-					  <p>Wrist Size:</p>
-					  <input type="text" title="meas1">
-				</div>
-				<div class="form-entry">
-					  <p>Neck Size:</p>
-					  <input type="text" title="meas1">
+				<div class="form-entry">	
+					<form>
+						<div>
+							<h3>Neck Size:</h3>
+							<p>Measure around your neck.</p>
+							<input type="text" title="neck">
+						</div>
+						<div>
+							<h3>Chest:</h3>
+							<p>Measure around the widest part of your chest.</p>
+							<input type="text" title="chest">
+						</div>
+						<div>
+							<h3>Waist:</h3>
+							<p> Measure around the thinnest part of your torso</p>
+							<input type="text" title="waist">
+						</div>
+						<div>
+							<h3>Hip:</h3>
+							<p>Measure around the widest part of your hip</p>
+							<input type="text" title="hip">
+						</div>
+					</form>
 				</div>
 			</div>
+			<div class="half-col">
+				<div>
+					<img src="img/sleeve-measure.jpg" alt="A diagram for sleeve measurements, including the arm size, arm length and wrist">
+				</div>
+				<div class="form-entry">	
+					<form>
+						<div>
+							<h3>Arm Size:</h3>
+							<p>Measure around your arm near your shoulder and through the arm pit</p>
+							<input type="text" title="arm-size">
+						</div>
+						<div>
+							<h3>Arm Length:</h3>
+							<p>With your hand on your hip, measure the length between the top of the shoulder to your wrist</p>
+							<input type="text" title="arm-length">
+						</div>
+						<div>
+							<h3>Wrist Size:</h3>
+							<p>Measure around your wrist</p>
+							<input type="text" title="meas1">
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="half-col">
+				<div>
+					<img src="img/shoulder-measure.jpg" alt="A pocket on a flannel shirt">
+				</div>
+				<div class="form-entry">	
+					<form>
+						<div>
+							<h3>Shoulder Width:</h3>
+							<p>Measure the width of your shoulders from end to end</p>
+							<input type="text" title="shoulder">
+						</div>
+						<div>
+							<h3>Torso Length:</h3>
+							<p>Measure the length from the top of the shoulders down to the hips</p>
+							<input type="text" title="torso">
+						</div>
+					</form>
+				</div>
+			</div>
+			
 			<div class="submit-reset">
 				<a class="button reset" href="#">Reset</a>
-				<a class="button submit" href="cart.html">Submit</a>
+				<a class="button submit" href="cart.html">Add to Cart</a>
 			</div>
 		</section>
 	</body>
