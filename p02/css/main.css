@@ -30,6 +30,12 @@ section code {
 		margin:2em;
 	}
 }
+@media (min-width:50em){
+	section{
+		margin-right:15%;
+		margin-left:15%;
+	}
+}
 
 /* 
   INTERACTIVE ELEMENTS -------------------
